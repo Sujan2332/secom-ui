@@ -1,0 +1,24 @@
+{
+  "name": "@sai/secom-ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src -d dist && npm run copy-styles",
+    "copy-styles": "copyfiles -u 2 src/styles/**/* dist/styles"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@babel/preset-react": "^7.28.5",
+    "copyfiles": "^2.4.1"
+  }
+}
