@@ -1,6 +1,6 @@
 {
   "name": "@saisujans/secom-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -11,8 +11,8 @@
     "copy-styles": "copyfiles -u 2 src/styles/**/* dist/styles"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": ">=18 <20",
+    "react-dom": ">=18 <20"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
