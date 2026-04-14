@@ -1,5 +1,5 @@
 {
-  "name": "@sai/secom-ui",
+  "name": "@saisujans/secom-ui",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -20,5 +20,8 @@
     "@babel/preset-env": "^7.29.2",
     "@babel/preset-react": "^7.28.5",
     "copyfiles": "^2.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
